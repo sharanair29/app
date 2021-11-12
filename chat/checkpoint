@@ -1,0 +1,2 @@
+model_checkpoint_path: "/Users/hlabs/Desktop/hoop/chatdjango/chat/model.tflearn"
+all_model_checkpoint_paths: "/Users/hlabs/Desktop/hoop/chatdjango/chat/model.tflearn"
