@@ -11,6 +11,7 @@ ls2=[]
 
 @csrf_exempt
 def get(request):
+   
     userText = str(request.GET.get("msg")) # data from input
     while True:
         print(userText)
@@ -23,7 +24,7 @@ def get(request):
 
 def index(request):
     return render(request, 'trialbot/bot.html')
-    
+
 @csrf_exempt
 def store(request):
     if request.method == 'POST':

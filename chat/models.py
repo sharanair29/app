@@ -14,7 +14,7 @@ except ImportError:
 # Create your models here.
 class ConvoChats(models.Model):
     message = JSONField(default=list,null=True,blank=True)
-    phone = models.CharField(max_length=200, blank=True)
+    phone = models.CharField(max_length=200, blank=True) 
     contact_date = models.DateTimeField(default=timezone.now(), blank=True)
     def __str__(self):
         return self.phone
